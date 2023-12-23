@@ -12,7 +12,10 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
+    env:
+      DB_EMPENIO_ARTICULOS_URI: ${{env.DB_EMPENIO_ARTICULOS_URI}}
+      DB_EMPENIO_ARTICULOS_DATABASE: ${{env.DB_EMPENIO_ARTICULOS_DATABASE}}
+      VALUACION_PORCENTAJE: ${{env.VALUACION_PORCENTAJE}}
     steps:
       - uses: actions/checkout@v4
 
