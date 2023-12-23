@@ -16,6 +16,7 @@ jobs:
       DB_EMPENIO_ARTICULOS_URI: ${{secrets.DB_EMPENIO_ARTICULOS_URI}}
       DB_EMPENIO_ARTICULOS_DATABASE: ${{secrets.DB_EMPENIO_ARTICULOS_DATABASE}}
       VALUACION_PORCENTAJE: ${{secrets.VALUACION_PORCENTAJE}}
+      JWT_ISSUER_URI: ${{secrets.JWT_ISSUER_URI}}
     steps:
       - uses: actions/checkout@v4
 
