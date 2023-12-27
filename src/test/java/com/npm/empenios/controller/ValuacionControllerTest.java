@@ -28,7 +28,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  */
 @SpringBootTest
 @AutoConfigureMockMvc(addFilters = false)
-public class ValuacionControllerTest {
+class ValuacionControllerTest {
 
     private final static String ENDPOINT_BASE = "/valuacion";
 

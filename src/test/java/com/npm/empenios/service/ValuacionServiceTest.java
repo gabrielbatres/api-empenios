@@ -20,7 +20,7 @@ import static org.mockito.Mockito.when;
  * Valida el correcto funcionamiento el servicio {@link IValuacionService}
  */
 @SpringBootTest
-public class ValuacionServiceTest {
+class ValuacionServiceTest {
 
     @MockBean
     PrecioMaterialRepository precioMaterialRepository;
